@@ -11,7 +11,6 @@ export class Scenario1componentComponent implements OnInit {
 
   printName(name){
     console.log(name);
-    console.log("hello");
   }
   ngOnInit() {
   }
