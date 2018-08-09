@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {Scenario1Module} from './scenario1module/scenario1.module'
 import { Scenario2Module } from './scenario2module/scenario2module.module';
-import {FormsModule} from '@angular/forms'
+
+import { Scenario3moduleModule } from './scenario3module/scenario3module.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,9 +13,10 @@ import {FormsModule} from '@angular/forms'
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    
    Scenario1Module,
-    Scenario2Module
+    Scenario2Module,
+    Scenario3moduleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
