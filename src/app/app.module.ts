@@ -6,6 +6,7 @@ import {Scenario1Module} from './scenario1module/scenario1.module'
 import { Scenario2Module } from './scenario2module/scenario2module.module';
 
 import { Scenario3moduleModule } from './scenario3module/scenario3module.module';
+import {Scenario4moduleModule} from './scenario4module/scenario4module.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { Scenario3moduleModule } from './scenario3module/scenario3module.module'
     
    Scenario1Module,
     Scenario2Module,
-    Scenario3moduleModule
+    Scenario3moduleModule,
+    Scenario4moduleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
